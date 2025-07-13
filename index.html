@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Malla Ing. Comercial – U. Finis Terrae</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Malla Ingeniería Comercial – UFT</h1>
+  <div id="malla" class="grid">
+
+    <!-- 1er Año – I Semestre -->
+    <div class="semestre">
+      <h2>I Semestre</h2>
+      <div class="ramos">
+        <div class="ramo" data-id="fundamentos-matematicos"           data-prereqs="">Fundamentos Matemáticos</div>
+        <div class="ramo" data-id="liderazgo-basado-en-valores"       data-prereqs="">Liderazgo Basado en Valores</div>
+        <div class="ramo" data-id="contexto-organizacional"           data-prereqs="">Contexto Organizacional</div>
+        <div class="ramo" data-id="contabilidad"                     data-prereqs="">Contabilidad</div>
+        <div class="ramo" data-id="taller-ba-1"                       data-prereqs="">Taller B.A. 1</div>
+        <div class="ramo" data-id="introduccion-p-filosofico"         data-prereqs="">Introducción P. Filosófico</div>
+        <div class="ramo" data-id="ingles-1"                          data-prereqs="">Inglés 1</div>
+      </div>
+    </div>
+
+    <!-- 1er Año – II Semestre -->
+    <div class="semestre">
+      <h2>II Semestre</h2>
+      <div class="ramos">
+        <div class="ramo" data-id="metodos-matematicos-1"              data-prereqs="fundamentos-matematicos">Métodos Matemáticos 1</div>
+        <div class="ramo" data-id="introduccion-a-la-economia"         data-prereqs="">Introducción a la Economía</div>
+        <div class="ramo" data-id="gestion-de-negocios-sostenibles"    data-prereqs="contexto-organizacional">Gestión de Negocios Sostenibles</div>
+        <div class="ramo" data-id="contabilidad-financiera"           data-prereqs="contabilidad">Contabilidad Financiera</div>
+        <div class="ramo" data-id="identidad-personal"                 data-prereqs="introduccion-p-filosofico">Identidad Personal</div>
+        <div class="ramo" data-id="comunicacion-efectiva"              data-prereqs="">Comunicación Efectiva</div>
+      </div>
+    </div>
+
+    <!-- 2º Año – III Semestre -->
+    <div class="semestre">
+      <h2>III Semestre</h2>
+      <div class="ramos">
+        <div class="ramo" data-id="metodos-matematicos-2"              data-prereqs="metodos-matematicos-1">Métodos Matemáticos 2</div>
+        <div class="ramo" data-id="macroeconomia"                      data-prereqs="introduccion-a-la-economia">Macroeconomía</div>
+        <div class="ramo" data-id="aspectos-legales"                  data-prereqs="contexto-organizacional">Aspectos Legales</div>
+        <div class="ramo" data-id="fundamentos-del-marketing"          data-prereqs="gestion-de-negocios-sostenibles">Fund. del Marketing</div>
+        <div class="ramo" data-id="taller-ba-2"                       data-prereqs="taller-ba-1">Taller B.A. 2</div>
+        <div class="ramo" data-id="antropologia-filosofica"           data-prereqs="identidad-personal">Antropología Filosófica</div>
+        <div class="ramo" data-id="ingles-2"                          data-prereqs="ingles-1">Inglés 2</div>
+      </div>
+    </div>
+
+    <!-- 2º Año – IV Semestre -->
+    <div class="semestre">
+      <h2>IV Semestre</h2>
+      <div class="ramos">
+        <div class="ramo" data-id="metodos-matematicos-3"              data-prereqs="metodos-matematicos-2">Métodos Matemáticos 3</div>
+        <div class="ramo" data-id="estadistica-1"                      data-prereqs="metodos-matematicos-2">Estadística 1</div>
+        <div class="ramo" data-id="gestion-de-talento"                 data-prereqs="">Gestión de Talento</div>
+        <div class="ramo" data-id="costos-y-decisiones"               data-prereqs="contabilidad-financiera">Costos y Decisiones</div>
+        <div class="ramo" data-id="conducta-del-consumidor"           data-prereqs="fundamentos-del-marketing">Conducta del Consumidor</div>
+        <div class="ramo" data-id="apreciacion-la"                    data-prereqs="antropologia-filosofica">Apreciación L.A.</div>
+        <div class="ramo" data-id="ingles-3"                          data-prereqs="ingles-2">Inglés 3</div>
+        <div class="ramo" data-id="electivo-iv-1"                     data-prereqs="">Electivo 1</div>
+        <div class="ramo" data-id="electivo-iv-2"                     data-prereqs="">Electivo 2</div>
+        <div class="ramo" data-id="electivo-iv-3"                     data-prereqs="">Electivo 3</div>
+        <div class="ramo" data-id="electivo-iv-4"                     data-prereqs="">Electivo 4</div>
+      </div>
+    </div>
+
+    <!-- 3er Año – V Semestre -->
+    <div class="semestre">
+      <h2>V Semestre</h2>
+      <div class="ramos">
+        <div class="ramo" data-id="metodos-matematicos-4"              data-prereqs="metodos-matematicos-3">Métodos Matemáticos 4</div>
+        <div class="ramo" data-id="estadisticas-2"                     data-prereqs="estadistica-1">Estadísticas 2</div>
+        <div class="ramo" data-id="microeconomia"                      data-prereqs="metodos-matematicos-1">Microeconomía</div>
+        <div class="ramo" data-id="adm-financiera"                    data-prereqs="costos-y-decisiones">Adm. Financiera</div>
+        <div class="ramo" data-id="investigacion-de-mercado"          data-prereqs="conducta-del-consumidor">Investigación de Mercado</div>
+        <div class="ramo" data-id="etica-general"                     data-prereqs="apreciacion-la">Ética General</div>
+        <div class="ramo" data-id="ingles-4"                          data-prereqs="ingles-3">Inglés 4</div>
+      </div>
+    </div>
+
+    <!-- 3er Año – VI Semestre -->
+    <div class="semestre">
+      <h2>VI Semestre</h2>
+      <div class="ramos">
+        <div class="ramo" data-id="econometria"                       data-prereqs="metodos-matematicos-4,estadisticas-2">Econometría</div>
+        <div class="ramo" data-id="mercado-y-estructura"              data-prereqs="microeconomia">Mercado y Estructura</div>
+        <div class="ramo" data-id="desempeno-organizacional"          data-prereqs="gestion-de-talento">Desempeño Organizacional</div>
+        <div class="ramo" data-id="marketing-estrategico"             data-prereqs="investigacion-de-mercado">Marketing Estratégico</div>
+        <div class="ramo" data-id="taller-ba-3"                       data-prereqs="taller-ba-2">Taller B.A. 3</div>
+        <div class="ramo" data-id="ingles-5"                          data-prereqs="ingles-4">Inglés 5</div>
+      </div>
+    </div>
+
+    <!-- 4º Año – VII Semestre -->
+    <div class="semestre">
+      <h2>VII Semestre</h2>
+      <div class="ramos">
+        <div class="ramo" data-id="direccion-estrategica"             data-prereqs="marketing-estrategico">Dirección Estratégica</div>
+        <div class="ramo" data-id="gestion-de-operaciones"            data-prereqs="metodos-matematicos-4">Gestión de Operaciones</div>
+        <div class="ramo" data-id="finanzas-corporativas"             data-prereqs="adm-financiera">Finanzas Corporativas</div>
+        <div class="ramo" data-id="electivo-vii-1"                    data-prereqs="">Electivo 1</div>
+        <div class="ramo" data-id="electivo-vii-2"                    data-prereqs="">Electivo 2</div>
+        <div class="ramo" data-id="persona-y-trascendencia"           data-prereqs="">Persona y Trascendencia</div>
+      </div>
+    </div>
+
+    <!-- 4º Año – VIII Semestre -->
+    <div class="semestre">
+      <h2>VIII Semestre</h2>
+      <div class="ramos">
+        <div class="ramo" data-id="analisis-economico"               data-prereqs="mercado-y-estructura">Análisis Económico</div>
+        <div class="ramo" data-id="impl-control-e"                   data-prereqs="direccion-estrategica,finanzas-corporativas">Impl. Control E.</div>
+        <div class="ramo" data-id="juego-de-negocios"                data-prereqs="direccion-estrategica,finanzas-corporativas">Juego de Negocios</div>
+        <div class="ramo" data-id="valoracion"                       data-prereqs="finanzas-corporativas">Valoración</div>
+        <div class="ramo" data-id="electivo-viii-3"                  data-prereqs="">Electivo 3</div>
+        <div class="ramo" data-id="electivo-viii-4"                  data-prereqs="">Electivo 4</div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
