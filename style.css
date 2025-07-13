@@ -1,0 +1,72 @@
+/* Reset básico */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body y títulos */
+body {
+  font-family: sans-serif;
+  background: #e0f7fa;
+  color: #004d61;
+  padding: 20px;
+}
+h1 {
+  text-align: center;
+  color: #00688B;
+  margin-bottom: 24px;
+}
+
+/* Grid general de semestres */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* Cada semestre */
+.semestre {
+  background: #ffffff;
+  border: 2px solid #00A5CF;
+  border-radius: 8px;
+  margin: 8px;
+  padding: 12px;
+  width: 240px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.semestre h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  color: #007b8a;
+}
+
+/* Lista de ramos dentro */
+.ramos {
+  display: grid;
+  row-gap: 8px;
+}
+
+/* Cada ramo */
+.ramo {
+  background: #b2ebf2;
+  border: 1px solid #007b8a;
+  border-radius: 4px;
+  padding: 6px 8px;
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.2s, opacity 0.2s;
+}
+.ramo:hover:not(.locked):not(.passed) {
+  background: #80deea;
+}
+.ramo.locked {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.ramo.passed {
+  background: #4db6ac;
+  color: #ffffff;
+  border-color: #388e3c;
+}
